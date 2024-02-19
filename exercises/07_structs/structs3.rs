@@ -11,7 +11,7 @@
 struct Package {
     sender_country: String,
     recipient_country: String,
-    weight_in_grams: u32,
+    weight_in_grams: u32, 
 }
 
 impl Package {
